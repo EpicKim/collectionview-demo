@@ -18,7 +18,6 @@ class TestCell:UICollectionViewCell {
         label = UILabel()
         label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 5)
-        label.clipsToBounds = true
         self.addSubview(label)
         let length = UIScreen.main.bounds.size.width/CGFloat(itemPerRow)
         label.frame = CGRect(origin: .zero, size: CGSize(width: length, height: length))
